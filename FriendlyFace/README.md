@@ -1,9 +1,11 @@
 # FriendlyFace
 
-Displaying a friendly face, in pure C with SDL
+Display a customizable robot face, plug in the screen via HDMI/Display Port and run the program.
+
+Made with C and SDL.
 
 ### Features
 
-- Changes with set face option
-- Scales with screen size
-- Looks unique
+- Customizable face selection
+- Simplifies utilization by removing the need for embedded screens and external libraries.
+- Extremely memory efficent 
