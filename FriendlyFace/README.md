@@ -2,10 +2,13 @@
 
 ### Overview
 
-A simple customizeable face made with C with SDL
+*FriendlyFace*
 
-- Customizable face selection
-- *Emotion* controlled facial expressions
+A simple customizeable face written in C with SDL.
+
+The program allows for emotion controlled faces, via socket connections with an *emotion server*
+
+The Emotional Face Controls protocol is seperate from the main thread, running in a second thread.
 
 ### Emotion Control
 
