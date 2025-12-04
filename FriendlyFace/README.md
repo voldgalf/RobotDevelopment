@@ -25,20 +25,15 @@ This is completely optional and is **not** required for the program to run corre
 > [!CAUTION]
 > FriendlyFace is currently only supported on Linux
 
-Before beginning the installation process it is crucial to update APT via:
+Follow the commands below to install the necessary packages before building
 
 ```bash
+# Update apt before continuing
 sudo apt update
-```
 
-FriendlyFace requires SDl3, to install it run:
-
-```bash
+# FriendlyFace requires SDl3, to install it run:
 sudo apt-get install libsdl3-dev
-```
 
-Building FriendlyFace requires CMake, to install it run:
-
-```bash
+# Building FriendlyFace requires CMake, to install it run:
 sudo apt install build-essential cmake
 ```
