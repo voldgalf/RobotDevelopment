@@ -25,7 +25,7 @@ This is completely optional and is **not** required for the program to run corre
 > [!CAUTION]
 > FriendlyFace is currently only supported on Linux
 
-Follow the commands below to install the necessary packages before building
+#### Installing dependences
 
 ```bash
 # Update apt before continuing
@@ -36,4 +36,24 @@ sudo apt-get install libsdl3-dev
 
 # Building FriendlyFace requires CMake, to install it run:
 sudo apt install build-essential cmake
+```
+
+#### Building with CMake
+
+```bash
+# Install the RobotDevelopment repo (which includes FriendlyFace)
+git clone https://github.com/voldgalf/RobotDevelopment.git
+
+# Navigate towards the installed repo's directory
+cd RobotDevelopment/FriendlyFace
+
+# Create the build files
+mkdir build
+
+cd build
+
+cmake ..
+
+# Build FriendlyFace
+cmake --build .
 ```
