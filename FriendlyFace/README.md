@@ -4,9 +4,6 @@
 
 A simple customizable robot face written in C with SDL.
 
-> [!WARNING]
-> FriendlyFace is designed for monitor use via HDMI, **not** embedded screens.
-
 #### Features
 
 - Customizable faces
